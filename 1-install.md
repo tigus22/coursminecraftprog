@@ -7,11 +7,12 @@
     + Aller au menu démarrer de Windows, et taper "git bash" et faites enter.
       Une fenêtre de commandes MINGW64 devrait apparaître.
     + Maintenant, il faut copier/coller les commandes suivantes pour télécharger BuildTools automatiquement au bon endroit.
+    *Attendez que l'installation soit terminée avant de continuer!*
         
 ```
 mkdir .\cmp
 mkdir .\cmp\buildtools
 cd cmp\buildtools
 curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
-
+java -jar BuildTools.jar
 ```
