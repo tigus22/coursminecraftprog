@@ -5,10 +5,12 @@
 * Télécharger et installer [Git for Windows](https://gitforwindows.org/, "Git for Windows").
 * Télécharger BuiltTools.jar à partir de SpigotMC: 
     + Aller au menu démarrer de Windows, et taper "cmd" et faites enter.
-      Une fenêtre de commandes DOS devrait apparaître:
-    + Copiez cette commande:
-
-Attention, pour coller une commande dans la fenêtre DOS, il faut cliquer avec le bouton de droite de la souris.
+      Une fenêtre de commandes DOS devrait apparaître.
+    + Maintenant, il faut copier/coller une commande pour télécharger BuilTools automatiquement au bon endroit.
+        + Attention, pour coller une commande dans la fenêtre DOS, il faut cliquer avec le bouton de droite de la souris.
 ```
+mkdir .\cmp
+mkdir .\cmp\buildtools
+cd cmp\buildtools
 wget -O BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 ```
