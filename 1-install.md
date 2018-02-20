@@ -9,4 +9,6 @@
     + Copiez cette commande:
 
 Attention, pour coller une commande dans la fenêtre DOS, il faut cliquer avec le bouton de droite de la souris.
---wget -O BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+```
+wget -O BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+```
