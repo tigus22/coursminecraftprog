@@ -1,5 +1,6 @@
 # Installation des modules requis
 
+* Télécharger et installer [Visual Studio Code](https://code.visualstudio.com/download).
 * Télécharger et installer [Java](https://www.java.com/en/download/ "Java").
 * Télécharger et installer [Minecraft](https://minecraft.net/en-us/store/minecraft/ "Minecraft").
 * Télécharger et installer [Git for Windows](https://gitforwindows.org).
