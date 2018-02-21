@@ -16,5 +16,5 @@ mkdir ./cmp/buildtools
 cd cmp/buildtools
 curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 java -jar BuildTools.jar
-java -jar spigot-1.10.2.jar
+java -jar spigot-1.12.2.jar
 ```
