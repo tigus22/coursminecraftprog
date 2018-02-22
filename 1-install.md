@@ -31,7 +31,7 @@ Afin de tester si votre installation fonctionne il faut démarrer votre serveur 
 
 Alors dans la même fenêtre gitbash que précédemment, copier cette commande pour démarrer le serveur spigot:  
 ```
-java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar
+java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot-1.12.2.jar
 ```
 Ensuite vous pouvez démarrer Minecraft en multiplayer.
 Cliquez sur `Add server`, puis dans la case `Server address` inscrivez `localhost`
