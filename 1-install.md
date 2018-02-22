@@ -22,5 +22,23 @@ cp spigot*.jar ../minecraft-server/
 cp craftbukkit*.jar ../minecraft-server/
 cd ../minecraft-server
 echo "eula=true">eula.txt
-java -jar spigot-1.12.2.jar
+curl -o ./plugins/scriptcraft.jar https://scriptcraftjs.org/download/latest/scriptcraft-3.2.1/scriptcraft.jar
+curl -o server.properties 
 ```
+
+# Tester votre installation
+Afin de tester si votre installation fonctionne il faut démarrer votre serveur spigot et démarrer Minecraft par la suite.
+
+Alors dans la même fenêtre gitbash que précédemment, copier cette commande pour démarrer le serveur spigot:  
+```
+java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar
+```
+Ensuite vous pouvez démarrer Minecraft en multiplayer.
+Cliquez sur `Add server`, puis dans la case `Server address` inscrivez `localhost`
+Rejoignez le serveur, et ouvrez une ligne de commande avec la touche `é`
+Vous verrez alors une ligne de commande commençant par un ` / `.
+Essayez une commande comme `js echo("Ça sent la nature!")` 
+
+Vous devriez voir votre message apparaître à l'écran.
+
+Si c'est le cas, votre installation est réussie!
