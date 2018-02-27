@@ -9,6 +9,8 @@
     + Fonctions
     + Tableaux
     + Modèle orienté-objet
+    + Pas d'examen!!!
+    + Pour avoir du fun alors on se gêne pas 
 
 ---  
 
