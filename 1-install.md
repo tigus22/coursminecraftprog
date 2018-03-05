@@ -42,3 +42,9 @@ Essayez une commande comme `js echo("Ça sent la nature!")`
 Vous devriez voir votre message apparaître à l'écran.
 
 Si c'est le cas, votre installation est réussie!
+
+## Vérifier installation de Node.js
+
+```
+node -v
+```
