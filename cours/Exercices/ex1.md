@@ -46,4 +46,14 @@ Si le montant total dépasse 25$ on veut remercier le client pour la vente.
 * Utilisez un `if` pour valider la valeur de `total` et si la valeur dépasse 25, affichez un message indiquant "Merci de financer mon abonnement à Playstation plus!".
 * Si la valeur ne dépasse pas 25, on remercie quand même le client d'avoir acheté chez nous en affichant le message suivant à la console: "Merci et bonne journée!".
 
+### Sauvgardez votre script et envoyez-le sur Github
+Lancez gitbash à partir de l'emplacement où vous avez cloné votre repo.
+Utilisez les commandes suivantes pour envoyer vos modifications sur Github:
+```
+git add .
+git commit -m "ex1"
+git push
+```
+
+À tout moment si vous avez des questions, vous pouvez m'écrire sur Discord et on pourra se parler vendredi soir.
 
