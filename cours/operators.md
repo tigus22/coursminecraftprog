@@ -27,7 +27,7 @@ si pair alors
 sinon 
     ouash
 
-si 1 == x alors 
+si non (1 = 2) alors 
     oui 
 sinon 
     ouash
