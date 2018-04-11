@@ -31,7 +31,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 bot.sendMessage({
                     to: channelID,
                     message: "Ça sent la nature!!"
-                });
+                    });
+                    case'4012':
+                    bot.sendMessage ({
+                    to: channelID
+                    message: "Alex ta yeul avec tes 4012" 
+                    });
+                
             break;
             // Just add any case commands if you want to..
          }
